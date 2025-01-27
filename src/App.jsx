@@ -11,7 +11,7 @@ import ta from "../src/components/image/task.webp";
 
 function App() {
   return (
-    <div className="min-h-screen lg:pl-64">
+    <div className="overflow-hidden min-h-screen lg:pl-64">
       <Sidebar />
 
       {/* Main Content */}
