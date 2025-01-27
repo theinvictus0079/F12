@@ -101,7 +101,7 @@ function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1.3, ease: "easeInOut" }}
-                className="text-gray-300 leading-relaxed mb-6"
+                className="text-gray-300  mb-6 text-2xl font-semibold leading-10 text-center"
               >
                 I'm a passionate full-stack developer with 5 years of experience
                 building web applications. I specialize in React, Node.js, and
@@ -109,12 +109,15 @@ function App() {
                 exploring new technologies or contributing to open-source
                 projects.
               </motion.p>
+              <div className="my-6 w-[100%] h-[1px] bg-pink-700">
+
+              </div>
               <motion.p
                 initial={{ opacity: 0, y: -200 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1.3, ease: "easeInOut" }}
-                className="text-gray-300 leading-relaxed"
+                className="md:mt-10 text-gray-300 leading-9 text-center text-2xl"
               >
                 My approach to development focuses on creating clean,
                 maintainable code and delivering exceptional user experiences.
