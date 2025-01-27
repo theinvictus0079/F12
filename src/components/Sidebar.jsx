@@ -18,7 +18,7 @@ export default function Sidebar() {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        className="fixed top-4  z-50 p-2 rounded-lg glass-effect lg:hidden"
+        className="fixed top-4 left-[85%]  z-50 p-2 rounded-lg glass-effect lg:hidden"
       >
         {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
       </button>
